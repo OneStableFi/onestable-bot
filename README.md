@@ -26,7 +26,7 @@ Any profit from an arbitrage trade is split between the contract caller & the Pr
 The OneStable Arbitrage Bot is competitive in nature. Bot operators compete to close arbitrage opportunities. There are many ways to improve a bot's competitiveness; the following document contains a short list of ideas on how to make a bot more competitive: [How to make your bot competitive](How_to_make_your_bot_competitive.md).
 
 
-[repo]:https://github.com/bancorprotocol/onesable-bot
+[repo]:https://github.com/OneStableFi/onesable-bot
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ Install OneStable Arbitrage Bot from PyPi using the following command:
 Clone the repo from Bancor's GitHub and install:
 
 ```bash
-git clone https://github.com/bancorprotocol/onesable-bot
+git clone https://github.com/OneStableFi/onesable-bot
 cd onesable-bot
 pip install -r requirements.txt
 python setup.py install
@@ -69,7 +69,7 @@ conda activate onestable_bot_env
 3. Clone the repo from GitHub:
 
 ```bash
-git clone https://github.com/bancorprotocol/onesable-bot
+git clone https://github.com/OneStableFi/onesable-bot
 cd onesable-bot
 ```
 
@@ -81,12 +81,12 @@ cd onesable-bot
 
 Please note that due to potential compatibility issues with the new Apple Silicon chip, some packages may still fail to install correctly. If you encounter any issues, please report them to the package maintainers.
 
-[sim]:https://github.com/bancorprotocol/carbon-simulator
+[sim]:https://github.com/OneStableFi/carbon-simulator
 
 ### Legacy Installation (v1.0)
 You can access the legacy version of the OneStable Arbitrage Bot, which was solely designed to facilitate single triangle arbitrage transactions which both initiate and conclude with BNT on the Bancor V3 exchange, by referring to the following link:
 
-[github.com/bancorprotocol/onesable-bot/releases/tag/v1.0](https://github.com/bancorprotocol/onesable-bot/releases/tag/v1.0)
+[github.com/OneStableFi/onesable-bot/releases/tag/v1.0](https://github.com/OneStableFi/onesable-bot/releases/tag/v1.0)
 
 ### Preparation
 

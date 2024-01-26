@@ -347,7 +347,7 @@ class EncodedOrder:
         A = self.decodeFloat(self.A)
         B = self.decodeFloat(self.B)
         return self.decode(B + A * self.y / self.z) ** 2
-        # https://github.com/bancorprotocol/carbon-simulator/blob/beta/benchmark/core/trade/impl.py
+        # https://github.com/OneStableFi/carbon-simulator/blob/beta/benchmark/core/trade/impl.py
         # 'marginalRate' : decodeRate(B + A if y == z else B + A * y / z),
 
 

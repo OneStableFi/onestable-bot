@@ -71,7 +71,7 @@ setup(
                 """,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bancorprotocol/onesable-bot",
+    url="https://github.com/OneStableFi/onesable-bot",
     install_requires=open("requirements.txt").readlines(),
     extras_require=extras_require,
     tests_require=["pytest~=6.2.5", "pytest-mock~=3.10.0", "imgkit~=1.2.3"],
