@@ -22,7 +22,7 @@ class VersionRequirementError(Exception):
             f"Please upgrade your web3.py version to {required_version} or higher.\n"
             f"We recommend using the latest requirements.txt file to install the latest versions of all "
             f"dependencies.\n"
-            f"To do this, run `pip install -r requirements.txt` from the root directory of the onesable-bot repo.\n"
+            f"To do this, run `pip install -r requirements.txt` from the root directory of the onestable-bot repo.\n"
             f"\n\n************** Version Requirement Error **************\n\n"
             f""
         )

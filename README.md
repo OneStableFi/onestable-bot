@@ -14,7 +14,7 @@ The OneStable Arbitrage Bot identifies arbitrage opportunities and closes them b
 
 The system works by executing atomic transactions that take flashloans to fulfill the capital requirements of trades, meaning only gas costs are required to submit transactions.
 
-Permanent URL for this repository: [github.com/OneStableFi/onesable-bot][repo]
+Permanent URL for this repository: [github.com/OneStableFi/onestable-bot][repo]
 
 For frequently asked questions, see [FAQ](FAQ.md).
 
@@ -26,7 +26,7 @@ Any profit from an arbitrage trade is split between the contract caller & the Pr
 The OneStable Arbitrage Bot is competitive in nature. Bot operators compete to close arbitrage opportunities. There are many ways to improve a bot's competitiveness; the following document contains a short list of ideas on how to make a bot more competitive: [How to make your bot competitive](How_to_make_your_bot_competitive.md).
 
 
-[repo]:https://github.com/OneStableFi/onesable-bot
+[repo]:https://github.com/OneStableFi/onestable-bot
 
 ## Getting Started
 
@@ -37,8 +37,8 @@ Install OneStable Arbitrage Bot from PyPi using the following command:
 Clone the repo from Bancor's GitHub and install:
 
 ```bash
-git clone https://github.com/OneStableFi/onesable-bot
-cd onesable-bot
+git clone https://github.com/OneStableFi/onestable-bot
+cd onestable-bot
 pip install -r requirements.txt
 python setup.py install
 ```
@@ -69,8 +69,8 @@ conda activate onestable_bot_env
 3. Clone the repo from GitHub:
 
 ```bash
-git clone https://github.com/OneStableFi/onesable-bot
-cd onesable-bot
+git clone https://github.com/OneStableFi/onestable-bot
+cd onestable-bot
 ```
 
 3. Now, install OneStable Arbitrage Bot by using the provided bash scrip `apple-silicon-install.sh`:
@@ -86,7 +86,7 @@ Please note that due to potential compatibility issues with the new Apple Silico
 ### Legacy Installation (v1.0)
 You can access the legacy version of the OneStable Arbitrage Bot, which was solely designed to facilitate single triangle arbitrage transactions which both initiate and conclude with BNT on the Bancor V3 exchange, by referring to the following link:
 
-[github.com/OneStableFi/onesable-bot/releases/tag/v1.0](https://github.com/OneStableFi/onesable-bot/releases/tag/v1.0)
+[github.com/OneStableFi/onestable-bot/releases/tag/v1.0](https://github.com/OneStableFi/onestable-bot/releases/tag/v1.0)
 
 ### Preparation
 
